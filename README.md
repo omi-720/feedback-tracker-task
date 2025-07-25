@@ -23,20 +23,21 @@ A simple full-stack feedback management system built with React and Node.js.
 1. **Clone the repository**
 
    ```bash
-   git clone <repo-url>
-   cd feedback-tracker
+   git clone https://github.com/omi-720/feedback-tracker-task
+   cd feedback-tracker-task
    ```
 
 2. **Install backend dependencies**
 
    ```bash
-   npm install express cors uuid
+   cd server
+   npm install
    ```
 
 3. **Install frontend dependencies** (if using separate React app)
    ```bash
-   cd frontend
-   npm install react lucide-react
+   cd client
+   npm install
    ```
 
 ### Running the Application
@@ -45,6 +46,8 @@ A simple full-stack feedback management system built with React and Node.js.
 
    ```bash
    node server.js
+   or
+   npm start
    ```
 
    Server runs on: `http://localhost:5000`
